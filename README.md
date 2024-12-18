@@ -33,6 +33,7 @@ Physical artifacts and papers of interest to historians and researchers pursuing
 Terms and positions held by each member within congress, with one row per term. usCongressBioIds are used to uniquely identify individuals and may repeat.
 
 | Field | Description |
+| ----- | ----------- |
 | usCongressBioId | Unique serial of the elected representative. |
 | representativeName | Representative's given name followed by their family name, separated by a space. Representative's middle name not included. |
 | congressID | Unique ID for a given session of the US or Continental Congress. |
