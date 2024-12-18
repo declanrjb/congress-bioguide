@@ -28,3 +28,18 @@ Physical artifacts and papers of interest to historians and researchers pursuing
 | recordDescription | Narrative description of the record and its contents. |
 | recordLocationName | Name of the library, archive, or other location at which the record is stored. |
 | recordLocationAddress | City and U.S. state in which the record is currently stored. |
+
+## congressional-positions
+Terms and positions held by each member within congress, with one row per term. usCongressBioIds are used to uniquely identify individuals and may repeat.
+
+| Field | Description |
+| usCongressBioId | Unique serial of the elected representative. |
+| representativeName | Representative's given name followed by their family name, separated by a space. Representative's middle name not included. |
+| congressID | Unique ID for a given session of the US or Continental Congress. |
+| jobName | The type of job held by the elected individual during the given term (Representative, Senator, Speaker, etc.) |
+| jobType | Type of position held. Includes 'CongressMemberJob', 'CongressLeadershipJob', and 'OtherJob'. |
+| stateRepresented | The U.S. State or territory the elected official represented during the given term. |
+| party | The official's political party affiliation during the given term. |
+| caucus | The official's caucus affiliation during the given term. |
+| jobStartDate | The date on which the official began serving their term. |
+| jobStartCirca | |
