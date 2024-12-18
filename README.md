@@ -15,3 +15,16 @@ Biographical information for each individual elected to the United States or Con
 | deathDate |  Representative's death date in YYYY-MM-DD format. |
 | deathCirca | |
 | profileText | Narrative biography of the representative's life, notable events, and career accomplishments, in plain text. Clauses/events are typically separated by semicolons. |
+
+## research-materials
+Physical artifacts and papers of interest to historians and researchers pursuing work related to a given representative. Includes the following fields:
+
+| Field | Description |
+| ----- | ----------- |
+| usCongressBioId | Unique serial of the elected representative. |
+| representativeName | Representative's given name followed by their family name, separated by a space. Representative's middle name not included. |
+| recordName | Name of the artifact, set of papers, or other material. |
+| recordType | Specifies the medium in which the record is preserved. Includes papers, microfilm, and photographs, among others. |
+| recordDescription | Narrative description of the record and its contents. |
+| recordLocationName | Name of the library, archive, or other location at which the record is stored. |
+| recordLocationAddress | City and U.S. state in which the record is currently stored. |
