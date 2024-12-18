@@ -3,6 +3,8 @@ The [U.S. Congressional Bioguide](https://bioguide.congress.gov/) provides exten
 ## directory
 Biographical information for each individual elected to the United States or Continental Congress, with one row per individual. Includes the following fields:
 
+| Field | Description |
+| ----- | ----------- |
 | usCongressBioId | Unique serial of the elected representative. |
 | fullName | Representative's given name followed by their family name, separated by a space. Representative's middle name not included. |
 | givenName | Representative's given name. |
