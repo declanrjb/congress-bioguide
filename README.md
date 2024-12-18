@@ -42,5 +42,17 @@ Terms and positions held by each member within congress, with one row per term. 
 | stateRepresented | The U.S. State or territory the elected official represented during the given term. |
 | party | The official's political party affiliation during the given term. |
 | caucus | The official's caucus affiliation during the given term. |
-| jobStartDate | The date on which the official began serving their term. |
+| jobStartDate | The date on which the official began serving their term in YYYY-MM-DD format. |
 | jobStartCirca | |
+
+# congressional-sessions
+Discrete sessions of the United States and Continental Congresses, in chronological order.
+
+| Field | Description |
+| ----- | ----------- |
+| congressID | Unique ID for a given session of the US or Continental Congress. |
+| congressNumber | The ordering of the given session in relation to other sessions of the same type. Continental Congress, Confederation Congress, and United States Congress each start separate counts at '1'. |
+| congressName | Plain text name for the given Congressional session. |
+| congressType | Type of Congress in session. Vast majority are 'USCongress', but data is also included for 'ConfederationCongress' and 'ContinentalCongress'. |
+| congressStartDate | First day of the given session in YYYY-MM-DD format. |
+| congressEndDate | Last day of the given session in YYYY-MM-DD format. |
